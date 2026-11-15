@@ -1,0 +1,181 @@
+====================================================================================
+                     DRIVER DROWSINESS TEST & EVALUATION REPORT                     
+====================================================================================
+Generated On: 2026-11-12 22:32:10
+Total Videos Evaluated: 116
+
+------------------------------------------------------------------------------------
+0. EVALUATION CONFIGURATION & DECLARATIONS
+------------------------------------------------------------------------------------
+Parameter                                     | Value
+------------------------------------------------------------------------------------
+Default EAR Threshold                         | 0.3000
+Default Confidence Threshold                  | 0.8500
+MediaPipe Consecutive Frames                  | 10
+Sustained Drowsy Duration                     | 1500 ms
+YOLO Cooldown                                 | 1500 ms
+Max Missing Time                              | 2000 ms
+Head Orientation Thresholds                   | Yaw: 20.0°, Pitch: 20.0°, Roll: 20.0°
+Model Input Resolution                        | 640 x 640
+Evaluation Frame Step                         | 100000 us
+
+------------------------------------------------------------------------------------
+1. DETAILED RESULTS PER VIDEO
+------------------------------------------------------------------------------------
+Video Name (with Parent Folder)               | Actual     | Predicted  | Trigger Time (s)
+------------------------------------------------------------------------------------
+10.mp4                                        | awake      | Awake      | N/A
+11.mp4                                        | awake      | Awake      | N/A
+12.mp4                                        | awake      | Awake      | N/A
+13.mp4                                        | awake      | Awake      | N/A
+14.mp4                                        | awake      | Awake      | N/A
+15.mp4                                        | awake      | Awake      | N/A
+16.mp4                                        | awake      | Awake      | N/A
+17.mp4                                        | awake      | Awake      | N/A
+18.mp4                                        | awake      | Awake      | N/A
+19.mp4                                        | awake      | Awake      | N/A
+1.mp4                                         | awake      | Awake      | N/A
+20.mp4                                        | awake      | Awake      | N/A
+21.mp4                                        | awake      | Awake      | N/A
+22.mp4                                        | awake      | Awake      | N/A
+23.mp4                                        | awake      | Awake      | N/A
+24.mp4                                        | awake      | Awake      | N/A
+25.mp4                                        | awake      | Awake      | N/A
+26.mp4                                        | awake      | Awake      | N/A
+27.mp4                                        | awake      | Awake      | N/A
+28.mp4                                        | awake      | Awake      | N/A
+29.mp4                                        | awake      | Awake      | N/A
+2.mp4                                         | awake      | Awake      | N/A
+30.mp4                                        | awake      | Awake      | N/A
+31.mp4                                        | awake      | Awake      | N/A
+32.mp4                                        | awake      | Awake      | N/A
+33.mp4                                        | awake      | Awake      | N/A
+34.mp4                                        | awake      | Awake      | N/A
+35.mp4                                        | awake      | Awake      | N/A
+36.mp4                                        | awake      | Sleepy     | 4.00s
+37.mp4                                        | awake      | Awake      | N/A
+38.mp4                                        | awake      | Sleepy     | 1.00s
+39.mp4                                        | awake      | Awake      | N/A
+3.mp4                                         | awake      | Awake      | N/A
+40.mp4                                        | awake      | Awake      | N/A
+41.mp4                                        | awake      | Awake      | N/A
+42.mp4                                        | awake      | Awake      | N/A
+43.mp4                                        | awake      | Awake      | N/A
+44.mp4                                        | awake      | Awake      | N/A
+45.mp4                                        | awake      | Awake      | N/A
+46.mp4                                        | awake      | Awake      | N/A
+47.mp4                                        | awake      | Awake      | N/A
+48.mp4                                        | awake      | Awake      | N/A
+49.mp4                                        | awake      | Awake      | N/A
+4.mp4                                         | awake      | Awake      | N/A
+50.mp4                                        | awake      | Awake      | N/A
+51.mp4                                        | awake      | Awake      | N/A
+52.mp4                                        | awake      | Awake      | N/A
+53.mp4                                        | awake      | Awake      | N/A
+54.mp4                                        | awake      | Awake      | N/A
+55.mp4                                        | awake      | Awake      | N/A
+56.mp4                                        | awake      | Awake      | N/A
+57.mp4                                        | awake      | Awake      | N/A
+58.mp4                                        | awake      | Awake      | N/A
+5.mp4                                         | awake      | Awake      | N/A
+6.mp4                                         | awake      | Awake      | N/A
+7.mp4                                         | awake      | Awake      | N/A
+8.mp4                                         | awake      | Awake      | N/A
+9.mp4                                         | awake      | Awake      | N/A
+10.mp4                                        | sleepy     | Sleepy     | 2.20s
+11.mp4                                        | sleepy     | Sleepy     | 5.30s
+12.mp4                                        | sleepy     | Sleepy     | 5.20s
+13.mp4                                        | sleepy     | Sleepy     | 3.40s
+14.mp4                                        | sleepy     | Sleepy     | 3.50s
+15.mp4                                        | sleepy     | Sleepy     | 8.00s
+16.mp4                                        | sleepy     | Sleepy     | 4.10s
+17.mp4                                        | sleepy     | Sleepy     | 3.90s
+18.mp4                                        | sleepy     | Sleepy     | 5.60s
+19.mp4                                        | sleepy     | Sleepy     | 1.50s
+1.mp4                                         | sleepy     | Sleepy     | 2.10s
+20.mp4                                        | sleepy     | Sleepy     | 10.50s
+21.mp4                                        | sleepy     | Sleepy     | 3.90s
+22.mp4                                        | sleepy     | Sleepy     | 5.70s
+23.mp4                                        | sleepy     | Sleepy     | 1.30s
+24.mp4                                        | sleepy     | Sleepy     | 1.30s
+25.mp4                                        | sleepy     | Awake      | N/A
+26.mp4                                        | sleepy     | Sleepy     | 4.50s
+27.mp4                                        | sleepy     | Sleepy     | 2.70s
+28.mp4                                        | sleepy     | Sleepy     | 1.00s
+29.mp4                                        | sleepy     | Sleepy     | 5.20s
+2.mp4                                         | sleepy     | Sleepy     | 3.10s
+30.mp4                                        | sleepy     | Sleepy     | 2.20s
+31.mp4                                        | sleepy     | Sleepy     | 1.80s
+32.mp4                                        | sleepy     | Sleepy     | 2.80s
+33.mp4                                        | sleepy     | Sleepy     | 3.20s
+34.mp4                                        | sleepy     | Sleepy     | 5.80s
+35.mp4                                        | sleepy     | Sleepy     | 4.70s
+36.mp4                                        | sleepy     | Sleepy     | 1.80s
+37.mp4                                        | sleepy     | Sleepy     | 1.70s
+38.mp4                                        | sleepy     | Sleepy     | 4.00s
+39.mp4                                        | sleepy     | Sleepy     | 3.90s
+3.mp4                                         | sleepy     | Sleepy     | 1.90s
+40.mp4                                        | sleepy     | Sleepy     | 3.70s
+41.mp4                                        | sleepy     | Sleepy     | 3.90s
+42.mp4                                        | sleepy     | Sleepy     | 2.70s
+43.mp4                                        | sleepy     | Sleepy     | 1.00s
+44.mp4                                        | sleepy     | Sleepy     | 3.20s
+45.mp4                                        | sleepy     | Sleepy     | 4.00s
+46.mp4                                        | sleepy     | Sleepy     | 4.30s
+47.mp4                                        | sleepy     | Sleepy     | 6.70s
+48.mp4                                        | sleepy     | Sleepy     | 7.30s
+49.mp4                                        | sleepy     | Sleepy     | 5.10s
+4.mp4                                         | sleepy     | Sleepy     | 1.00s
+50.mp4                                        | sleepy     | Sleepy     | 1.10s
+51.mp4                                        | sleepy     | Sleepy     | 4.60s
+52.mp4                                        | sleepy     | Sleepy     | 4.10s
+53.mp4                                        | sleepy     | Sleepy     | 3.40s
+54.mp4                                        | sleepy     | Sleepy     | 1.90s
+55.mp4                                        | sleepy     | Sleepy     | 3.60s
+56.mp4                                        | sleepy     | Sleepy     | 3.70s
+57.mp4                                        | sleepy     | Sleepy     | 5.30s
+58.mp4                                        | sleepy     | Sleepy     | 4.40s
+5.mp4                                         | sleepy     | Sleepy     | 1.70s
+6.mp4                                         | sleepy     | Awake      | N/A
+7.mp4                                         | sleepy     | Sleepy     | 1.90s
+8.mp4                                         | sleepy     | Sleepy     | 5.70s
+9.mp4                                         | sleepy     | Sleepy     | 3.80s
+
+------------------------------------------------------------------------------------
+2. CONFUSION MATRIX & DETAILED EXPLANATIONS
+------------------------------------------------------------------------------------
+True Positives  (TP): 56
+  -> Explanation: Videos truly labeled as 'Sleepy' and correctly predicted as 'Sleepy'.
+
+False Positives (FP): 2
+  -> Explanation: Videos truly labeled as 'Awake' but incorrectly predicted as 'Sleepy' (Type I Error).
+
+True Negatives  (TN): 56
+  -> Explanation: Videos truly labeled as 'Awake' and correctly predicted as 'Awake'.
+
+False Negatives (FN): 2
+  -> Explanation: Videos truly labeled as 'Sleepy' but incorrectly predicted as 'Awake' (Type II Error).
+
+------------------------------------------------------------------------------------
+3. PERFORMANCE STATISTICS & METRICS (PAPER-READY)
+------------------------------------------------------------------------------------
+Metric                                        | Value
+------------------------------------------------------------------------------------
+Accuracy                                      | 96.55%
+Precision (Positive Predictive Value)         | 0.9655
+Recall / Sensitivity (True Positive Rate)     | 0.9655
+F1-Score                                      | 0.9655
+Specificity (True Negative Rate)              | 0.9655
+False Positive Rate (FPR)                     | 0.0345
+False Negative Rate (FNR)                     | 0.0345
+
+------------------------------------------------------------------------------------
+4. MISCLASSIFIED (FALSELY PREDICTED) FILES
+------------------------------------------------------------------------------------
+File Name (with Parent Folder)                | Actual       | Predicted
+------------------------------------------------------------------------------------
+36.mp4                                        | awake        | Sleepy
+38.mp4                                        | awake        | Sleepy
+25.mp4                                        | sleepy       | Awake
+6.mp4                                         | sleepy       | Awake
+====================================================================================
