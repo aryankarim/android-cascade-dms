@@ -1,0 +1,171 @@
+\relax 
+\bibstyle{sn-mathphys-num}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/D>>}
+\Newlabel{1}{1}
+\citation{bib1,bib2,bib3}
+\citation{bib4}
+\citation{bib5}
+\citation{bib6,bib7,bib8}
+\citation{bib9}
+\citation{bib10,bib11}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{2}{Introduction}{section.1}{}}
+\citation{bib12}
+\citation{bib13}
+\citation{bib14}
+\citation{bib15}
+\citation{bib16}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.2}\protected@file@percent }
+\newlabel{sec:related}{{2}{3}{Related Work}{section.2}{}}
+\citation{bib17}
+\citation{bib18}
+\citation{bib19}
+\citation{bib20}
+\citation{bib21}
+\@writefile{toc}{\contentsline {section}{\numberline {3}System Design and Architecture}{5}{section.3}\protected@file@percent }
+\newlabel{sec:design}{{3}{5}{System Design and Architecture}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Technology Stack}{5}{subsection.3.1}\protected@file@percent }
+\newlabel{sec:stack}{{3.1}{5}{Technology Stack}{subsection.3.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Core technologies used in the proposed system}}{5}{table.1}\protected@file@percent }
+\newlabel{tab:techstack}{{1}{5}{Core technologies used in the proposed system}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}System Architecture}{5}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:arch}{{3.2}{5}{System Architecture}{subsection.3.2}{}}
+\@writefile{toc}{\contentsline {subparagraph}{Stage 1: Lightweight Facial Landmark Detector (Light Model)}{5}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subparagraph}{Stage 2: Scale-Reduced INT8-Quantized Deep Learning Verifier (Heavy Model)}{5}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Implementation}{6}{section.4}\protected@file@percent }
+\newlabel{sec:impl}{{4}{6}{Implementation}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Cascade Design Overview}{6}{subsection.4.1}\protected@file@percent }
+\newlabel{sec:cascade}{{4.1}{6}{Cascade Design Overview}{subsection.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Light Model (MediaPipe)}{6}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:light}{{4.2}{6}{Light Model (MediaPipe)}{subsection.4.2}{}}
+\newlabel{eq:light_model_equation}{{1}{7}{Light Model (MediaPipe)}{equation.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Flowchart of the light model module, detailing the continuous calculation of the EAR and head orientation angles (roll, yaw, and pitch) against calibrated baselines.}}{7}{figure.1}\protected@file@percent }
+\newlabel{fig:light_model_module}{{1}{7}{Flowchart of the light model module, detailing the continuous calculation of the EAR and head orientation angles (roll, yaw, and pitch) against calibrated baselines}{figure.1}{}}
+\citation{bib22}
+\citation{bib22}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Light model interface showing the detected facial landmarks and estimated head orientation (roll, yaw, and pitch) as the driver looks in different directions.}}{8}{figure.2}\protected@file@percent }
+\newlabel{fig:light_model_interface}{{2}{8}{Light model interface showing the detected facial landmarks and estimated head orientation (roll, yaw, and pitch) as the driver looks in different directions}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Eye Aspect Ratio}{8}{subsubsection.4.2.1}\protected@file@percent }
+\newlabel{sec:ear_math}{{4.2.1}{8}{Eye Aspect Ratio}{subsubsection.4.2.1}{}}
+\newlabel{eq:ear_math}{{2}{8}{Eye Aspect Ratio}{equation.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Head Orientation Analysis}{8}{subsubsection.4.2.2}\protected@file@percent }
+\newlabel{sec:head}{{4.2.2}{8}{Head Orientation Analysis}{subsubsection.4.2.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Head Tilt (Roll)}{9}{section*.4}\protected@file@percent }
+\newlabel{eq:roll_math}{{3}{9}{Head Tilt (Roll)}{equation.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Head Turn (Yaw)}{9}{section*.5}\protected@file@percent }
+\newlabel{eq:yaw_math}{{4}{9}{Head Turn (Yaw)}{equation.4}{}}
+\citation{bib23}
+\@writefile{toc}{\contentsline {paragraph}{Head Nod (Pitch)}{10}{section*.6}\protected@file@percent }
+\newlabel{eq:pitch_math}{{5}{10}{Head Nod (Pitch)}{equation.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}EAR and Head Orientation Calibration}{10}{subsubsection.4.2.3}\protected@file@percent }
+\newlabel{sec:calib}{{4.2.3}{10}{EAR and Head Orientation Calibration}{subsubsection.4.2.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Heavy Model (YOLO ONNX)}{10}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:heavy}{{4.3}{10}{Heavy Model (YOLO ONNX)}{subsection.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Flowchart of the heavy model module, highlighting ONNX inference execution and resource-efficient cool-down threshold.}}{11}{figure.3}\protected@file@percent }
+\newlabel{fig:heavy_model_module}{{3}{11}{Flowchart of the heavy model module, highlighting ONNX inference execution and resource-efficient cool-down threshold}{figure.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Scaled YOLOv8 Model and Training}{11}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Model Export and Quantization}{11}{section*.8}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Training metrics across selected epochs}}{12}{table.2}\protected@file@percent }
+\newlabel{tab:training_metrics}{{2}{12}{Training metrics across selected epochs}{table.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Training and validation loss curves across the training epochs.}}{12}{figure.4}\protected@file@percent }
+\newlabel{fig:loss_curves}{{4}{12}{Training and validation loss curves across the training epochs}{figure.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{Android Inference and Cascade Integration}{12}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Validation and Reporting Qualification}{13}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Hybrid Cascade Architecture}{13}{subsection.4.4}\protected@file@percent }
+\newlabel{sec:hybrid}{{4.4}{13}{Hybrid Cascade Architecture}{subsection.4.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Flowchart of the cascade architecture, showing the continuous light model and the conditional activation of the heavy YOLOv8 model.}}{13}{figure.5}\protected@file@percent }
+\newlabel{fig:cascade_flowchart}{{5}{13}{Flowchart of the cascade architecture, showing the continuous light model and the conditional activation of the heavy YOLOv8 model}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Alert Generation System}{14}{subsection.4.5}\protected@file@percent }
+\newlabel{sec:alert}{{4.5}{14}{Alert Generation System}{subsection.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Mobile Deployment and Optimization}{14}{subsection.4.6}\protected@file@percent }
+\newlabel{sec:deploy}{{4.6}{14}{Mobile Deployment and Optimization}{subsection.4.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experiments and Results}{14}{section.5}\protected@file@percent }
+\newlabel{sec:exp}{{5}{14}{Experiments and Results}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Experimental Setup}{14}{subsection.5.1}\protected@file@percent }
+\newlabel{sec:setup}{{5.1}{14}{Experimental Setup}{subsection.5.1}{}}
+\citation{bib24}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The on-device application prototype}}{15}{figure.6}\protected@file@percent }
+\newlabel{fig4}{{6}{15}{The on-device application prototype}{figure.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces System configuration details}}{15}{table.3}\protected@file@percent }
+\newlabel{tab3}{{3}{15}{System configuration details}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Dataset Description}{15}{subsection.5.2}\protected@file@percent }
+\newlabel{sec:dataset}{{5.2}{15}{Dataset Description}{subsection.5.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Example of the DROZY dataset}}{16}{figure.7}\protected@file@percent }
+\newlabel{fig5}{{7}{16}{Example of the DROZY dataset}{figure.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Example of the homemade dataset}}{16}{figure.8}\protected@file@percent }
+\newlabel{fig6}{{8}{16}{Example of the homemade dataset}{figure.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Configuration Parameters}{16}{subsection.5.3}\protected@file@percent }
+\newlabel{sec:config}{{5.3}{16}{Configuration Parameters}{subsection.5.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Training Hyper-parameters}{16}{subsubsection.5.3.1}\protected@file@percent }
+\newlabel{subsec:parameters}{{5.3.1}{16}{Training Hyper-parameters}{subsubsection.5.3.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Training hyper-parameters}}{17}{table.4}\protected@file@percent }
+\newlabel{tab5}{{4}{17}{Training hyper-parameters}{table.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2}Training Data Augmentation}{17}{subsubsection.5.3.2}\protected@file@percent }
+\newlabel{subsec:augmentation}{{5.3.2}{17}{Training Data Augmentation}{subsubsection.5.3.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Offline augmentation settings}}{17}{table.5}\protected@file@percent }
+\newlabel{tab6}{{5}{17}{Offline augmentation settings}{table.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.3}Runtime Parameters}{17}{subsubsection.5.3.3}\protected@file@percent }
+\newlabel{subsec:runtime}{{5.3.3}{17}{Runtime Parameters}{subsubsection.5.3.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Runtime parameters}}{18}{table.6}\protected@file@percent }
+\newlabel{tab7}{{6}{18}{Runtime parameters}{table.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Discussion of Results}{18}{subsection.5.4}\protected@file@percent }
+\newlabel{sec:results}{{5.4}{18}{Discussion of Results}{subsection.5.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.1}System-Level Evaluation}{18}{subsubsection.5.4.1}\protected@file@percent }
+\newlabel{subsec:system}{{5.4.1}{18}{System-Level Evaluation}{subsubsection.5.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Confusion matrix}}{19}{figure.9}\protected@file@percent }
+\newlabel{fig7}{{9}{19}{Confusion matrix}{figure.9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.2}Evaluation metrics}{19}{subsubsection.5.4.2}\protected@file@percent }
+\newlabel{subsec:eval}{{5.4.2}{19}{Evaluation metrics}{subsubsection.5.4.2}{}}
+\newlabel{eq6}{{6}{19}{Evaluation metrics}{equation.6}{}}
+\newlabel{eq7}{{7}{19}{Evaluation metrics}{equation.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Time to drowsiness alert for the 56 correctly detected clips }}{20}{figure.10}\protected@file@percent }
+\newlabel{fig8}{{10}{20}{Time to drowsiness alert for the 56 correctly detected clips}{figure.10}{}}
+\newlabel{eq8}{{8}{20}{Evaluation metrics}{equation.8}{}}
+\newlabel{eq9}{{9}{20}{Evaluation metrics}{equation.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Evaluation metric results}}{20}{table.7}\protected@file@percent }
+\newlabel{tab8}{{7}{20}{Evaluation metric results}{table.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion and Future Work}{20}{section.6}\protected@file@percent }
+\newlabel{sec:future}{{6}{20}{Discussion and Future Work}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Training dataset limitations}{21}{subsection.6.1}\protected@file@percent }
+\newlabel{subsec6.1}{{6.1}{21}{Training dataset limitations}{subsection.6.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Performance Optimization}{21}{subsection.6.2}\protected@file@percent }
+\newlabel{subsec6.2}{{6.2}{21}{Performance Optimization}{subsection.6.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Generalization to Real-World Driving Conditions}{21}{subsection.6.3}\protected@file@percent }
+\newlabel{subsec6.3}{{6.3}{21}{Generalization to Real-World Driving Conditions}{subsection.6.3}{}}
+\bibdata{references}
+\bibcite{bib1}{{1}{2023}{{Khan et~al.}}{{}}}
+\bibcite{bib2}{{2}{2023}{{Bindhu et~al.}}{{}}}
+\bibcite{bib3}{{3}{2023}{{Revathy et~al.}}{{}}}
+\bibcite{bib4}{{4}{2008}{{Williamson}}{{}}}
+\bibcite{bib5}{{5}{2025}{{Babu et~al.}}{{}}}
+\bibcite{bib6}{{6}{2014}{{Khamis et~al.}}{{}}}
+\bibcite{bib7}{{7}{2024}{{Li et~al.}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{22}{section.7}\protected@file@percent }
+\newlabel{sec:conclusion}{{7}{22}{Conclusion}{section.7}{}}
+\@writefile{toc}{\contentsline {subparagraph}{Acknowledgements}{22}{section*.11}\protected@file@percent }
+\bibcite{bib8}{{8}{2020}{{Iridiastadi et~al.}}{{}}}
+\bibcite{bib9}{{9}{2021}{{Rajkumarsingh and Totah}}{{}}}
+\bibcite{bib10}{{10}{2025}{{CAI~Zhongqi}}{{}}}
+\bibcite{bib11}{{11}{2026}{{M.~Vimala}}{{}}}
+\bibcite{bib12}{{12}{2003}{{Fletcher et~al.}}{{}}}
+\bibcite{bib13}{{13}{2012}{{Sahayadhas et~al.}}{{}}}
+\bibcite{bib14}{{14}{2003}{{Caffier et~al.}}{{}}}
+\bibcite{bib15}{{15}{2020}{{Wijnands et~al.}}{{}}}
+\bibcite{bib16}{{16}{2020}{{Xing et~al.}}{{}}}
+\bibcite{bib17}{{17}{2023}{{Civik and Yuzgec}}{{}}}
+\bibcite{bib18}{{18}{2023}{{Terven et~al.}}{{}}}
+\bibcite{bib19}{{19}{2023}{{Ran et~al.}}{{}}}
+\bibcite{bib20}{{20}{2021}{{Titare et~al.}}{{}}}
+\bibcite{bib21}{{21}{2022}{{Ganguly et~al.}}{{}}}
+\bibcite{bib22}{{22}{2014}{{Arcoverde~Neto et~al.}}{{}}}
+\bibcite{bib23}{{23}{2024}{{Yaseen}}{{}}}
+\bibcite{bib24}{{24}{2016}{{Massoz et~al.}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}DROZY Dataset Cropping}{24}{appendix.1.A}\protected@file@percent }
+\newlabel{app:crop}{{A}{24}{DROZY Dataset Cropping}{appendix.1.A}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Full Architecture}{24}{appendix.1.B}\protected@file@percent }
+\newlabel{app:full_architecture}{{B}{24}{Full Architecture}{appendix.1.B}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B1}{\ignorespaces Flowchart of the cascade architecture, showing the full continuous light model and heavy model pipelines.}}{24}{figure.1}\protected@file@percent }
+\newlabel{fig:full_architecture}{{B1}{24}{Flowchart of the cascade architecture, showing the full continuous light model and heavy model pipelines}{figure.1}{}}
+\gdef \@abspage@last{24}

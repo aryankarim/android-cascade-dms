@@ -1,0 +1,100 @@
+This is BibTeX, Version 0.99e (TeX Live 2026/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: sn-article.aux
+The style file: sn-mathphys-num.bst
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: references.bib
+sn-mathphys-num.bst [2024/07/19 v1.1  bibliography style]
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Too many commas in name 1 of "CAI Zhongqi, LIN Shanling, LIN Jianpu, et al." for entry bib10
+while executing---line 2768 of file sn-mathphys-num.bst
+Too many commas in name 1 of "CAI Zhongqi, LIN Shanling, LIN Jianpu, et al." for entry bib10
+while executing---line 2768 of file sn-mathphys-num.bst
+Too many commas in name 1 of "M. Vimala, M. Nandhini, S. Jasmine, P. Ranjith Kumar, S. Ramasamy" for entry bib11
+while executing---line 2768 of file sn-mathphys-num.bst
+Too many commas in name 1 of "M. Vimala, M. Nandhini, S. Jasmine, P. Ranjith Kumar, S. Ramasamy" for entry bib11
+while executing---line 2768 of file sn-mathphys-num.bst
+Too many commas in name 1 of "M. Vimala, M. Nandhini, S. Jasmine, P. Ranjith Kumar, S. Ramasamy" for entry bib11
+while executing---line 2768 of file sn-mathphys-num.bst
+Too many commas in name 1 of "M. Vimala, M. Nandhini, S. Jasmine, P. Ranjith Kumar, S. Ramasamy" for entry bib11
+while executing---line 2768 of file sn-mathphys-num.bst
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Too many commas in name 1 of "CAI Zhongqi, LIN Shanling, LIN Jianpu, et al." for entry bib10
+while executing---line 2871 of file sn-mathphys-num.bst
+Too many commas in name 1 of "CAI Zhongqi, LIN Shanling, LIN Jianpu, et al." for entry bib10
+while executing---line 2871 of file sn-mathphys-num.bst
+Too many commas in name 1 of "CAI Zhongqi, LIN Shanling, LIN Jianpu, et al." for entry bib10
+while executing---line 2871 of file sn-mathphys-num.bst
+Too many commas in name 1 of "M. Vimala, M. Nandhini, S. Jasmine, P. Ranjith Kumar, S. Ramasamy" for entry bib11
+while executing---line 2871 of file sn-mathphys-num.bst
+Too many commas in name 1 of "M. Vimala, M. Nandhini, S. Jasmine, P. Ranjith Kumar, S. Ramasamy" for entry bib11
+while executing---line 2871 of file sn-mathphys-num.bst
+Too many commas in name 1 of "M. Vimala, M. Nandhini, S. Jasmine, P. Ranjith Kumar, S. Ramasamy" for entry bib11
+while executing---line 2871 of file sn-mathphys-num.bst
+Too many commas in name 1 of "M. Vimala, M. Nandhini, S. Jasmine, P. Ranjith Kumar, S. Ramasamy" for entry bib11
+while executing---line 2871 of file sn-mathphys-num.bst
+Too many commas in name 1 of "M. Vimala, M. Nandhini, S. Jasmine, P. Ranjith Kumar, S. Ramasamy" for entry bib11
+while executing---line 2871 of file sn-mathphys-num.bst
+Too many commas in name 1 of "M. Vimala, M. Nandhini, S. Jasmine, P. Ranjith Kumar, S. Ramasamy" for entry bib11
+while executing---line 2871 of file sn-mathphys-num.bst
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+You've used 24 entries,
+            7485 wiz_defined-function locations,
+            1267 strings with 12840 characters,
+and the built_in function-call counts, 67683 in all, are:
+= -- 8921
+> -- 510
+< -- 48
++ -- 2017
+- -- 185
+* -- 4291
+:= -- 14315
+add.period$ -- 0
+call.type$ -- 24
+change.case$ -- 136
+chr.to.int$ -- 24
+cite$ -- 24
+duplicate$ -- 692
+empty$ -- 4376
+format.name$ -- 585
+if$ -- 15264
+int.to.chr$ -- 1
+int.to.str$ -- 42
+missing$ -- 0
+newline$ -- 313
+num.names$ -- 120
+pop$ -- 636
+preamble$ -- 1
+purify$ -- 112
+quote$ -- 0
+skip$ -- 4450
+stack$ -- 0
+substring$ -- 8533
+swap$ -- 178
+text.length$ -- 250
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 624
+warning$ -- 0
+while$ -- 553
+width$ -- 0
+write$ -- 457
+(There were 15 error messages)
