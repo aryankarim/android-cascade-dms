@@ -63,8 +63,7 @@ Mitigating truck driver fatigue: A driver sleepiness detecting system
 \oauthor{\bsnm{Varshini}, \binits{M.}},
 \oauthor{\bsnm{Vaishnavi}, \binits{R.}},
 \oauthor{\bsnm{Annapoorani}, \binits{S.}}:
-Automated real time wakefulness state observation of driver based on machine
-  learning
+Automated real time wakefulness state observation of driver based on machine learning
 (2023)
 \end{botherref}
 \endbibitem
@@ -96,8 +95,7 @@ The relationship between driver fatigue and driver distraction
 \bibitem[\protect\citeauthoryear{Babu et~al.}{2025}]{bib5}
 \begin{botherref}
 \oauthor{\bsnm{Babu}, \binits{S.D.}}, et al.:
-Guardian of awake journeys: A real-time drowsiness monitoring system for
-  automotive drivers
+Guardian of awake journeys: A real-time drowsiness monitoring system for automotive drivers
 (2025)
 \end{botherref}
 \endbibitem
@@ -109,8 +107,7 @@ Guardian of awake journeys: A real-time drowsiness monitoring system for
 \oauthor{\bsnm{Deros}, \binits{B.M.}},
 \oauthor{\bsnm{Nuawi}, \binits{M.Z.}},
 \oauthor{\bsnm{Omar}, \binits{R.B.}}:
-Driving fatigue among long distance heavy vehicle drivers in klang valley,
-  malaysia
+Driving fatigue among long distance heavy vehicle drivers in klang valley, malaysia
 (2014)
 \end{botherref}
 \endbibitem
@@ -163,8 +160,7 @@ Fatigue driving detection based on improved yolov8n-pose
 \bibitem[\protect\citeauthoryear{M.~Vimala}{2026}]{bib11}
 \begin{botherref}
 \oauthor{\bsnm{M.~Vimala}, \binits{S.J.P.R.K.S.R.} \bsuffix{M.~Nandhini}}:
-Implementation of a lightweight deep learning model for detecting driver
-  fatigue
+Implementation of a lightweight deep learning model for detecting driver fatigue
 (2026)
 \end{botherref}
 \endbibitem
@@ -210,8 +206,7 @@ Experimental evaluation of eye-blink parameters as a drowsiness measure
 \oauthor{\bsnm{Nice}, \binits{K.A.}},
 \oauthor{\bsnm{Aschwanden}, \binits{G.D.}},
 \oauthor{\bsnm{Stevenson}, \binits{M.}}:
-Real-time monitoring of driver drowsiness on mobile platforms using 3d neural
-  networks
+Real-time monitoring of driver drowsiness on mobile platforms using 3d neural networks
 (2020)
 \end{botherref}
 \endbibitem
@@ -224,8 +219,7 @@ Real-time monitoring of driver drowsiness on mobile platforms using 3d neural
 \oauthor{\bsnm{Wu}, \binits{C.Q.}},
 \oauthor{\bsnm{Xi}, \binits{W.}},
 \oauthor{\bsnm{Chen}, \binits{X.}}:
-Dwatch: A reliable and low-power drowsiness detection system for drivers based
-  on mobile devices
+Dwatch: A reliable and low-power drowsiness detection system for drivers based on mobile devices
 (2020)
 \end{botherref}
 \endbibitem
@@ -235,8 +229,7 @@ Dwatch: A reliable and low-power drowsiness detection system for drivers based
 \begin{botherref}
 \oauthor{\bsnm{Civik}, \binits{E.}},
 \oauthor{\bsnm{Yuzgec}, \binits{U.}}:
-Real-time driver fatigue detection system with deep learning on a low-cost
-  embedded system
+Real-time driver fatigue detection system with deep learning on a low-cost embedded system
 (2023)
 \end{botherref}
 \endbibitem
@@ -247,8 +240,7 @@ Real-time driver fatigue detection system with deep learning on a low-cost
 \oauthor{\bsnm{Terven}, \binits{J.}},
 \oauthor{\bsnm{C{\'o}rdova-Esparza}, \binits{D.M.}},
 \oauthor{\bsnm{Romero-Gonz{\'o}lez}, \binits{J.A.}}:
-A comprehensive review of yolo architectures in computer vision: From yolov1 to
-  yolov8 and yolo-nas
+A comprehensive review of yolo architectures in computer vision: From yolov1 to yolov8 and yolo-nas
 (2023)
 \end{botherref}
 \endbibitem
@@ -259,8 +251,7 @@ A comprehensive review of yolo architectures in computer vision: From yolov1 to
 \oauthor{\bsnm{Ran}, \binits{X.}},
 \oauthor{\bsnm{He}, \binits{S.}},
 \oauthor{\bsnm{Li}, \binits{R.}}:
-Research on fatigued-driving detection method by integrating lightweight
-  yolov5s and facial 3d keypoints
+Research on fatigued-driving detection method by integrating lightweight yolov5s and facial 3d keypoints
 (2023)
 \end{botherref}
 \endbibitem
@@ -282,8 +273,7 @@ Driver drowsiness detection and alert system
 \oauthor{\bsnm{Ganguly}, \binits{B.}},
 \oauthor{\bsnm{Dey}, \binits{D.}},
 \oauthor{\bsnm{Munshi}, \binits{S.}}:
-An integrated system for drivers' drowsiness detection using deep learning
-  frameworks
+An integrated system for drivers' drowsiness detection using deep learning frameworks
 (2022)
 \end{botherref}
 \endbibitem
@@ -303,8 +293,7 @@ Enhanced real-time head pose estimation system for mobile device
 \bibitem[\protect\citeauthoryear{Yaseen}{2024}]{bib23}
 \begin{botherref}
 \oauthor{\bsnm{Yaseen}, \binits{M.}}:
-What is yolov9: An in-depth exploration of the internal features of the
-  next-generation object detector
+What is yolov9: An in-depth exploration of the internal features of the next-generation object detector
 (2024)
 \end{botherref}
 \endbibitem
